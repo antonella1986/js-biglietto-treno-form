@@ -9,9 +9,9 @@
 </head>
 <body>
 
-    <div class="container bg-danger p-5">
+    <div class="container bg-danger">
         <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
-        <div class="row bg-white p-3">
+        <div class="row bg-white">
             <form action="" class="price d-flex justify-content-around flex-wrap">
                 <div class="mb-3 d-flex flex-column align-items-center">
                     <label for="userName" class="form-label">Nome e Cognome</label>
@@ -30,36 +30,34 @@
                 </div>
                 <div class="row">
                     <div class="inputs">
-                        <button type="submit">Genera</button>
-                        <button type="submit">Annulla</button>
+                        <button type="submit" class="button">Genera</button>
+                        <button type="submit" class="button">Annulla</button>
                     </div>
                 </div>
             </form>
         </div>
         <h2>IL TUO BIGLIETTO</h2>
-        <div class="container bg-white p-2">
+        <div class="row d-flex bg-white">
             <h4><strong>DETTAGLIO PASSEGGERI</strong></h4>
-            <div class="row d-flex">
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body d-flex align-items-center gap-3">
-                            <div class="cardName">
-                                <h4 class="namePassenger">NOME PASSEGGERO</h4>
-                                <div class="fullName">Jon Snow</div>
-                            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body d-flex align-items-center gap-3">
+                        <div class="cardName">
+                            <h4 class="namePassenger">NOME PASSEGGERO</h4>
+                            <div class="fullName">Jon Snow</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
-                    <div class="card">
-                        <div class="card-body d-flex align-items-center gap-3">
-                            <div>
-                                <span class="prefix">Mr.</span> <span class="fullname">Mario Rossi</span>
-                            </div>
-                            <div class="job">Teacher</div>
-                            <div class="telephone">123123123</div>
-                            <div class="email">mail@gmail.com</div>
+            </div>
+            <div class="col-8">
+                <div class="card">
+                    <div class="card-body d-flex align-items-center gap-3">
+                        <div>
+                            <span class="prefix">Mr.</span> <span class="fullname">Mario Rossi</span>
                         </div>
+                        <div class="job">Teacher</div>
+                        <div class="telephone">123123123</div>
+                        <div class="email">mail@gmail.com</div>
                     </div>
                 </div>
             </div>

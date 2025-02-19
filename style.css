@@ -1,5 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+}
+
+.container {
+    padding: 0 4rem 4rem;
+}
+
+.row {
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.button {
+    border-color: transparent;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    padding: 0.25rem 0.5rem 0.25rem;
 }
