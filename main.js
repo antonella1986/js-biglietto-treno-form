@@ -35,6 +35,8 @@ console.log(formEl, nameEl.value, kmEl.value);
 
 formEl.addEventListener("submit", function(e) {
     e.preventDefault();
+    console.log(priceResult());
+    
 
     // gather the data
 
